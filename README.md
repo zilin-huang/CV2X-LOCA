@@ -42,6 +42,7 @@ After finishing, the module will automatically calculate the error of this run a
 - Y-axis maximum error
 - Y-axis minimum error
 - MAPE
+- MAE
 - MEAN
 - RMSE
 
