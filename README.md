@@ -11,7 +11,7 @@ It contains various simulation data generated in Matlab environment (under **Env
 - Attenuation factor value (named A.mat)
 
 # Models
-This repo contains several major types of models compared in our paper, such as
+This repo contains several major types of models compared in our paper, such as:
 - WCL
 - WLLS
 - LS-EKF
