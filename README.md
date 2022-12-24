@@ -19,3 +19,11 @@ This repo contains several major types of models compared in our paper, such as:
 - CV2X-SDP (named SDP_A_UKF)
 
 Note: The remaining models compared in the paper can be easily deduced based on the given code. Therefore, the authors do not list them all here.
+
+# Getting started
+Install the dependent package
+
+e.g., 
+
+- ML-True, are solved by the MATLAB function lsqnonlin
+- The SDP-based methods, including SDP-LSRE, SDP-ML-KF, and CV2X-SDP (our), are solved by using the MATLAB package CVX , which the solver is SeDuMi
