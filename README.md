@@ -17,3 +17,5 @@ This repo contains several major types of models compared in our paper, such as:
 - LS-EKF
 - GRNN-UKF
 - CV2X-SDP (named SDP_A_UKF)
+
+Note: The remaining models compared in the paper can be easily deduced based on the given code. Therefore, the authors do not list them all here.
