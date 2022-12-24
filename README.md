@@ -38,5 +38,12 @@ main.m
 ``` 
 
 # Reference
-If you find this repo to be useful in your research, please consider citing our work
+If you find this repo to be useful in your research, please consider citing our work.
+
+
+# Limitations
+Due to time limitation, there are still some unstandardized parts of the code in this project. The author is working hard to maintain and update the code of CV2X-SDP, please kindly follow up。
+
+Thank you~
+
 
