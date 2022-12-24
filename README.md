@@ -35,7 +35,7 @@ Run model
 
 ``` 
 
-<p>main.m<p>
+<p>main.m</p>
 
 ``` 
 
