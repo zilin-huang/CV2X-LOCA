@@ -2,7 +2,7 @@
 This repo is the implementation of the paper "Roadside Units-Enabled Cooperative Localization Scheme for Autonomous Vehicles Under GNSS-denied Environments: Methodology and Demonstration" (Under Review).
 
 # Data
-It contains various simulation data generated in Matlab environment (under $\underline{Environment_setting}$ file). Researchers can use these data to test the localization algorithms they have developed. 
+It contains various simulation data generated in Matlab environment (under $\underline{Environment setting}$ file). Researchers can use these data to test the localization algorithms they have developed. 
 
 - RSS data (named rssi_noise.mat)
 - Vehicle trajectory data (named trace_1.mat)
