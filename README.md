@@ -25,5 +25,5 @@ Install the dependent package
 
 e.g., 
 
-( `ML-True, are solved by the MATLAB function lsqnonlin`)
+`ML-True, are solved by the MATLAB function lsqnonlin`
 - The SDP-based methods, including SDP-LSRE, SDP-ML-KF, and CV2X-SDP (our), are solved by using the MATLAB package CVX , which the solver is SeDuMi
