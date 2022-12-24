@@ -9,3 +9,11 @@ It contains various simulation data generated in Matlab environment (under **Env
 - RSUs coordinate data (named AP.mat)
 - Distance data from vehicle to each RSU (named real_d.mat)
 - Attenuation factor value (named A.mat)
+
+# Models
+This repo contains several major types of models compared in our paper, such as
+- WCL
+- WLLS
+- LS-EKF
+- GRNN-UKF
+- CV2X-SDP (named SDP_A_UKF)
