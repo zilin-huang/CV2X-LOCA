@@ -39,7 +39,7 @@ main.m
 # Reference
 If you find this repo to be useful in your research, please consider citing our work.
 
-* "Roadside Units-Enabled Cooperative Localization Scheme for Autonomous Vehicles Under GNSS-denied Environments: Methodology and Demonstration" *
+*Roadside Units-Enabled Cooperative Localization Scheme for Autonomous Vehicles Under GNSS-denied Environments: Methodology and Demonstration*
 
 
 
