@@ -20,7 +20,7 @@ This repo contains several major types of models compared in our paper, such as:
 
 Note: The remaining models compared in the paper can be easily deduced based on the given code. Therefore, the authors do not list them all here.
 
-# Getting started
+# Preparation
 Install the dependent package
 
 e.g., 
@@ -29,6 +29,11 @@ e.g.,
 
 `The SDP-based methods, including SDP-LSRE, SDP-ML-KF, and CV2X-SDP (our), are solved by using the MATLAB package CVX , which the solver is SeDuMi`
 
+
+# Getting started
 Run model
 
+
+# Reference
+If you find this repo to be useful in your research, please consider citing our work
 `main.m`
