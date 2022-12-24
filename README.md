@@ -27,13 +27,18 @@ e.g.,
 
 `ML-True, are solved by the MATLAB function lsqnonlin`
 
-`The SDP-based methods, including SDP-LSRE, SDP-ML-KF, and CV2X-SDP (our), are solved by using the MATLAB package CVX , which the solver is SeDuMi`
+`The SDP-based methods, including SDP-LSRE, SDP-ML-KF, and CV2X-SDP (our), are solved by using the MATLAB package CVX , which the solver is SeDuMi.`
 
 
 # Getting started
 Run model
 
+``` 
+
+<p>main.m<p>
+
+``` 
 
 # Reference
 If you find this repo to be useful in your research, please consider citing our work
-`main.m`
+
