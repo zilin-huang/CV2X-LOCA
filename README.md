@@ -1,2 +1,2 @@
 # CV2X-SDP
-(Part C) Roadside Units-Enabled Cooperative Localization Scheme for Autonomous Vehicles Under GNSS-denied Environments: Methodology and Demonstration
+This repo is the implementation of the paper "Roadside Units-Enabled Cooperative Localization Scheme for Autonomous 1 Vehicles Under GNSS-denied Environments: Methodology and Demonstration" (Under Review).
