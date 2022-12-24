@@ -36,6 +36,16 @@ Run model
 main.m
 ``` 
 
+After finishing, the module will automatically calculate the error of this run and save it in the same directory. Including:
+- X-axis maximum error
+- X-axis minimum error
+- Y-axis maximum error
+- Y-axis minimum error
+- MAPE
+- MEAN
+- RMSE
+
+
 # Reference
 If you find this repo to be useful in your research, please consider citing our work.
 
