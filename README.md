@@ -50,7 +50,7 @@ After finishing, the module will automatically calculate the error of this run a
 # Reference
 If you find this repo to be useful in your research, please consider citing our work.
 
-*Roadside Units-Enabled Cooperative Localization Scheme for Autonomous Vehicles Under GNSS-denied Environments: Methodology and Demonstration. Zilin Huang, Sikai Chen (Corresponding author), Yuzhuang Pian, Soyoung Ahn, David Noyce.*
+*CV2X-LOCA: Roadside Unit-Enabled Cooperative Localization Framework for Autonomous Vehicles. Zilin Huang, Sikai Chen (Corresponding author), Yuzhuang Pian, ZIhao Sheng, Soyoung Ahn, David Noyce.*
 
 
 
