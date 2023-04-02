@@ -1,5 +1,5 @@
 # CV2X-SDP
-This repo is the implementation of the paper "Roadside Units-Enabled Cooperative Localization Scheme for Autonomous Vehicles Under GNSS-denied Environments: Methodology and Demonstration" (Under Review).
+This repo is the implementation of the paper "CV2X-LOCA: Roadside Unit-Enabled Cooperative Localization Framework for Autonomous Vehicles".
 
 # Data
 It contains various simulation data generated in Matlab environment (under **Environment setting** file). Researchers can use these data to test the localization algorithms they have developed. 
