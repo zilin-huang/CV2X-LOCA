@@ -1,4 +1,4 @@
-# CV2X-SDP
+# CV2X-LOCA
 This repo is the implementation of the paper "CV2X-LOCA: Roadside Unit-Enabled Cooperative Localization Framework for Autonomous Vehicles".
 
 # Data
@@ -16,7 +16,7 @@ This repo contains several major types of models compared in our paper, such as:
 - WLLS
 - LS-EKF
 - GRNN-UKF
-- CV2X-SDP (named SDP_A_UKF)
+- CV2X-LOCA (named SDP_A_UKF)
 
 Note: The remaining models compared in the paper can be easily deduced based on the given code.
 
@@ -56,7 +56,7 @@ If you find this repo to be useful in your research, please consider citing our 
 
 
 # Limitations
-Due to time limitation, there are still some unstandardized parts of the code in this project. The author is working hard to maintain and update the code of CV2X-SDP, please kindly follow up.
+Due to time limitation, there are still some unstandardized parts of the code in this project. The author is working hard to maintain and update the code of CV2X-LOCA, please kindly follow up.
 
 Thank you~
 
