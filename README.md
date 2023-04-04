@@ -1,7 +1,7 @@
 # CV2X-LOCA
 This repo is the implementation of the paper "CV2X-LOCA: Roadside Unit-Enabled Cooperative Localization Framework for Autonomous Vehicles".
 
-![](./Field Test-min.gif)
+![Field Test](https://raw.github.com/julianwong-source/repositpry/master/CV2X-LOCA/Field Test-min.gif)
 
 # Data
 It contains various simulation data generated in Matlab environment (under **Environment setting** file). Researchers can use these data to test the localization algorithms they have developed. 
