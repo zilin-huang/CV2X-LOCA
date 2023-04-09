@@ -3,6 +3,8 @@ This repo is the implementation of the paper "CV2X-LOCA: Roadside Unit-Enabled C
 
 <div align=center> ![Field Test](https://github.com/julianwong-source/CV2X-LOCA/blob/main/Field_test.gif)
 
+<div align=center><img src=https://github.com/julianwong-source/CV2X-LOCA/blob/main/Field_test.gif></div>
+
 
 # Data
 It contains various simulation data generated in Matlab environment (under **Environment setting** file). Researchers can use these data to test the localization algorithms they have developed. 
