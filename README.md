@@ -1,5 +1,19 @@
 # CV2X-LOCA
-This repo is the implementation of the paper "CV2X-LOCA: Roadside Unit-Enabled Cooperative Localization Framework for Autonomous Vehicles".
+This repo is the implementation of the paper "Toward C-V2X Enabled Connected Transportation System: RSU-Based Cooperative Localization Framework for Autonomous Vehicles".
+
+
+# Overview
+CV2X-LOCA innovatively uses C-V2X channel state information to achieve lane-level positioning accuracy. 
+
+<div align=center><img src=../Demo/fig3.png width="600"></div>
+
+It is composed of four modules:
+- Data Processing Module: Standardizes and processes incoming data for accurate localization.
+- Coarse Positioning Module: Overcomes non-convex optimization challenges by approximating ML estimators, ensuring robust vehicle localization.
+- Environment Parameter Correcting Module: Adapts to environmental variations by dynamically adjusting signal propagation models, crucial for handling traffic scenarios heterogeneity.
+- Vehicle Trajectory Filtering Module: Enhances localization precision through advanced filtering techniques, addressing spatio-temporal constraints effectively.
+
+
 
 
 <div align=center><img src=https://github.com/julianwong-source/CV2X-LOCA/blob/main/Field_test.gif width="600"></div>
