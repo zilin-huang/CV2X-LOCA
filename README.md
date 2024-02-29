@@ -5,7 +5,7 @@ This repo is the implementation of the paper "Toward C-V2X Enabled Connected Tra
 # Overview
 CV2X-LOCA innovatively uses C-V2X channel state information to achieve lane-level positioning accuracy. 
 
-<div align=center><img src=../Demo/fig3.png width="600"></div>
+<div align=center><img src=./Demo/fig3.png width="600"></div>
 
 It is composed of four modules:
 - Data Processing Module: Standardizes and processes incoming data for accurate localization.
