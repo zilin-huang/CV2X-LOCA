@@ -46,7 +46,7 @@ The following models are included:
 
 Each model addresses different aspects of the localization challenges as indicated in the table below:
 
-<div align=center><img src="./Demo/Table_1.jpg" width="600"></div>
+<div align=center><img src="./Results/Table_1.jpg" width="600"></div>
 
 _NOTE: The checkmarks in the table denote which challenges each method is focused on addressing, providing an at-a-glance comparison of their capabilities._
 
