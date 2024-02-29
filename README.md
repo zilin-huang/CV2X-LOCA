@@ -78,6 +78,29 @@ Upon completion, the script will automatically calculate various error metrics f
 
 Make sure to check the output files for a detailed analysis of the model's accuracy and reliability.
 
+## Simulation Results Display
+Our research presents a comprehensive evaluation of the CV2X-LOCA framework, showcasing its proficiency in overcoming localization challenges. The simulation results demonstrate our method's effectiveness in various traffic and environmental scenarios:
+
+- **Non-Convex Objective Function**: Our solution efficiently handles the complexity of non-convex problems to maintain high accuracy.
+- **Heterogeneous Traffic Scenarios**: We simulate diverse conditions to prove the robustness of our approach in different traffic densities and urban settings.
+- **Spatio-Temporal Constraints**: Our framework addresses the real-time demands of vehicular movements and delivers accurate location estimations even in rapidly changing conditions.
+
+The following figures illustrate the localization performance of CV2X-LOCA compared to other methods under simulated conditions, highlighting the strengths and reliability of our approach:
+
+<div align=center><img src="./Results/fig4.png" width="600"></div>
+<div align=center><img src="./Results/Table_1.jpg" width="600"></div>
+
+## Field Test Demonstration
+Complementing our simulation results, we conducted field tests to validate the practical applicability of the CV2X-LOCA framework. Our field tests employed experimental vehicles equipped with the necessary instrumentation to capture and process localization data. The setup included:
+- **Experimental Vehicles**: Equipped with On-Board Units (OBUs) and other necessary hardware.
+- **Experimental Instruments**: Including computers, mobile power supplies, data cables, and OBUs for data acquisition and processing.
+- **RSUs Deployment**: Strategically placed Roadside Units (RSUs) along the test route to facilitate accurate localization.
+
+The vehicles traversed predefined routes covering various environments, such as tunnels and urban areas with tall buildings and trees, to assess the localization framework under different conditions.
+
+<div align=center><img src="./Demo/fig10.png" width="600"></div>
+<div align=center><img src="./Demo/Field_test.gif" width="600"></div>
+
 
 ## Project Structure
 CV2X-LOCA/  
