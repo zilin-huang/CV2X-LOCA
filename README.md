@@ -13,6 +13,7 @@ It is composed of four modules:
 - Environment Parameter Correcting Module: Adapts to environmental variations by dynamically adjusting signal propagation models, crucial for handling traffic scenarios heterogeneity.
 - Vehicle Trajectory Filtering Module: Enhances localization precision through advanced filtering techniques, addressing spatio-temporal constraints effectively.
 
+
 ## Data Generation
 This section outlines the simulation data included in this repository, generated within a Matlab environment to support the testing and validation of localization algorithms against the CV2X-LOCA framework. The data simulate real-world conditions to ensure the relevance and applicability of our findings to actual autonomous vehicle localization challenges.
 
@@ -52,41 +53,33 @@ _NOTE: The checkmarks in the table denote which challenges each method is focuse
 
 The code for each model is provided, allowing researchers to replicate our findings and further explore the performance of these models in their own simulations.
 
-# Preparation
-Install the dependent package
 
-e.g., 
+## Preparation
+Before running the models, ensure that you have the necessary MATLAB packages installed. The models in this repository rely on various MATLAB functions and toolboxes.
 
-`ML-True, are solved by the MATLAB function lsqnonlin`
+For example:
+- `ML-True` localization solutions are calculated using the MATLAB function `lsqnonlin`, which is part of the Optimization Toolbox.
+- SDP-based methods, such as `SDP-LSRE`, `SDP-ML-KF`, and `CV2X-SDP` (our proposed method), are solved using the MATLAB package [CVX](http://cvxr.com/cvx/). Ensure that you have CVX installed with the solver SeDuMi, which can be done following the instructions on the [CVX installation page](http://cvxr.com/cvx/doc/install.html).
 
-`The SDP-based methods, including SDP-LSRE, SDP-ML-KF, and CV2X-SDP (our), are solved by using the MATLAB package CVX , which the solver is SeDuMi.`
+Please follow the installation guides provided by MATLAB and the respective package documentation to set up your environment correctly.
 
-# Getting started
-Run model
+### Getting Started
+To run the localization models and evaluate their performance, execute the `main.m` script in MATLAB.
 
-``` 
-main.m
-``` 
-
-After finishing, the module will automatically calculate the error of this run and save it in the same directory. Including:
+Upon completion, the script will automatically calculate various error metrics for the localization run and save them in the same directory. These metrics provide a quantitative assessment of the model's performance, including:
 - X-axis maximum error
 - X-axis minimum error
 - Y-axis maximum error
 - Y-axis minimum error
-- MAPE
-- MAE
-- MEAN
-- RMSE
+- Mean Absolute Percentage Error (MAPE)
+- Mean Absolute Error (MAE)
+- Mean Error (MEAN)
+- Root Mean Square Error (RMSE)
+
+Make sure to check the output files for a detailed analysis of the model's accuracy and reliability.
 
 
-
-
-<div align=center><img src=https://github.com/julianwong-source/CV2X-LOCA/blob/main/Field_test.gif width="600"></div>
-
-
-
-
-# Project Structure
+## Project Structure
 CV2X-LOCA/  
 ├── Algorithm/  
 │ ├── CF/  
@@ -106,15 +99,13 @@ CV2X-LOCA/
 └── README.md  
 
 
-# Reference
+## Reference
 If you find this repo to be useful in your research, please consider citing our work.
 
 *Huang, Z., Chen, S., Pian, Y., Sheng, Z., Ahn, S., & Noyce, D. A. (2023). CV2X-LOCA: Roadside Unit-Enabled Cooperative Localization Framework for Autonomous Vehicles. arXiv preprint arXiv:2304.00676.*
 
 
-
-
-# Limitations
+## Limitations
 Due to time limitation, there are still some unstandardized parts of the code in this project. The author is working hard to maintain and update the code of CV2X-LOCA, please kindly follow up.
 
 Thank you~
