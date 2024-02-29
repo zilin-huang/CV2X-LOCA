@@ -88,7 +88,7 @@ CV2X-LOCA/
 # Reference
 If you find this repo to be useful in your research, please consider citing our work.
 
-*CV2X-LOCA: Roadside Unit-Enabled Cooperative Localization Framework for Autonomous Vehicles. Zilin Huang, Sikai Chen (Corresponding author), Yuzhuang Pian, ZIhao Sheng, Soyoung Ahn, David Noyce.*
+*Huang, Z., Chen, S., Pian, Y., Sheng, Z., Ahn, S., & Noyce, D. A. (2023). CV2X-LOCA: Roadside Unit-Enabled Cooperative Localization Framework for Autonomous Vehicles. arXiv preprint arXiv:2304.00676.*
 
 
 
