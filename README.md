@@ -33,8 +33,6 @@ Adjusts signal propagation models dynamically to accommodate various environment
 
 The datasets were specifically generated to tackle the three main challenges identified in our research: non-convex objective function optimization, adaptation to traffic scenarios' heterogeneity, and managing spatio-temporal constraints. These datasets not only serve as a benchmark for the CV2X-LOCA framework but also enable researchers to validate their own localization algorithms under similar conditions.
 
-For more insights into our simulation setup and methodology, refer to the **Simulation Experiment** section of our paper, discussing the data generation approach and its significance in advancing vehicle localization technologies.
-
 
 # Models
 This repo contains several major types of models compared in our paper, such as:
