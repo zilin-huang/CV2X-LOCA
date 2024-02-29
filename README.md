@@ -2,7 +2,7 @@
 This repo is the implementation of the paper "Toward C-V2X Enabled Connected Transportation System: RSU-Based Cooperative Localization Framework for Autonomous Vehicles".
 
 
-# Overview
+## Overview
 CV2X-LOCA innovatively uses C-V2X channel state information to achieve lane-level positioning accuracy. 
 
 <div align=center><img src=./Demo/fig3.png width="600"></div>
@@ -34,15 +34,23 @@ Adjusts signal propagation models dynamically to accommodate various environment
 The datasets were specifically generated to tackle the three main challenges identified in our research: non-convex objective function optimization, adaptation to traffic scenarios' heterogeneity, and managing spatio-temporal constraints. These datasets not only serve as a benchmark for the CV2X-LOCA framework but also enable researchers to validate their own localization algorithms under similar conditions.
 
 
-# Models
-This repo contains several major types of models compared in our paper, such as:
+## Models
+The repository hosts implementations of several localization models that we have compared in our paper. These models are integral to the comparative analysis we conducted to demonstrate the effectiveness of our proposed CV2X-LOCA framework in addressing specific challenges in vehicle localization.
+
+The following models are included:
 - WCL
 - WLLS
 - LS-EKF
 - GRNN-UKF
 - CV2X-LOCA (named SDP_A_UKF)
 
-Note: The remaining models compared in the paper can be easily deduced based on the given code.
+Each model addresses different aspects of the localization challenges as indicated in the table below:
+
+<div align=center><img src="./Demo/Table_1.jpg" width="600"></div>
+
+_NOTE: The checkmarks in the table denote which challenges each method is focused on addressing, providing an at-a-glance comparison of their capabilities._
+
+The code for each model is provided, allowing researchers to replicate our findings and further explore the performance of these models in their own simulations.
 
 # Preparation
 Install the dependent package
