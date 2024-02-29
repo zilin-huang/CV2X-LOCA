@@ -13,20 +13,28 @@ It is composed of four modules:
 - Environment Parameter Correcting Module: Adapts to environmental variations by dynamically adjusting signal propagation models, crucial for handling traffic scenarios heterogeneity.
 - Vehicle Trajectory Filtering Module: Enhances localization precision through advanced filtering techniques, addressing spatio-temporal constraints effectively.
 
+## Data Generation
+This section outlines the simulation data included in this repository, generated within a Matlab environment to support the testing and validation of localization algorithms against the CV2X-LOCA framework. The data simulate real-world conditions to ensure the relevance and applicability of our findings to actual autonomous vehicle localization challenges.
 
+### RSS Data (`rssi_noise.mat`)
+Generated through Eq. (1), considering noise fluctuations and adjusting environmental parameters (γ) to mimic various road environments, reflecting the heterogeneity of urban traffic scenarios.
 
+### Vehicle Trajectory Data (`trace_1.mat`)
+Utilizes the constant velocity lane changing (CVLC) model for simulating realistic vehicle trajectories, assuming no acceleration or braking.
 
-<div align=center><img src=https://github.com/julianwong-source/CV2X-LOCA/blob/main/Field_test.gif width="600"></div>
+### RSUs Coordinate Data (`AP.mat`)
+Deployed in a simulated two-way, four-lane road segment, with RSUs positioned on both sides to ensure angle diversity of measurements and reduce lateral dilution of precision.
 
+### Distance Data from Vehicle to Each RSU (`real_d.mat`)
+Calculated based on the simulated positions of vehicles and RSUs, providing essential data for assessing localization algorithm effectiveness.
 
-# Data
-It contains various simulation data generated in Matlab environment (under **Environment setting** file). Researchers can use these data to test the localization algorithms they have developed. 
+### Attenuation Factor Value (`A.mat`)
+Adjusts signal propagation models dynamically to accommodate various environmental conditions, enhancing the framework's adaptability.
 
-- RSS data (named rssi_noise.mat)
-- Vehicle trajectory data (named trace_1.mat)
-- RSUs coordinate data (named AP.mat)
-- Distance data from vehicle to each RSU (named real_d.mat)
-- Attenuation factor value (named A.mat)
+The datasets were specifically generated to tackle the three main challenges identified in our research: non-convex objective function optimization, adaptation to traffic scenarios' heterogeneity, and managing spatio-temporal constraints. These datasets not only serve as a benchmark for the CV2X-LOCA framework but also enable researchers to validate their own localization algorithms under similar conditions.
+
+For more insights into our simulation setup and methodology, refer to the **Simulation Experiment** section of our paper, discussing the data generation approach and its significance in advancing vehicle localization technologies.
+
 
 # Models
 This repo contains several major types of models compared in our paper, such as:
@@ -63,6 +71,13 @@ After finishing, the module will automatically calculate the error of this run a
 - MAE
 - MEAN
 - RMSE
+
+
+
+
+<div align=center><img src=https://github.com/julianwong-source/CV2X-LOCA/blob/main/Field_test.gif width="600"></div>
+
+
 
 
 # Project Structure
