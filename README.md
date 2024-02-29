@@ -87,8 +87,8 @@ Our research presents a comprehensive evaluation of the CV2X-LOCA framework, sho
 
 The following figures illustrate the localization performance of CV2X-LOCA compared to other methods under simulated conditions, highlighting the strengths and reliability of our approach:
 
+<div align=center><img src="./Results/Table_3.jpg" width="600"></div>
 <div align=center><img src="./Results/fig4.png" width="600"></div>
-<div align=center><img src="./Results/Table_1.jpg" width="600"></div>
 
 ## Field Test Demonstration
 Complementing our simulation results, we conducted field tests to validate the practical applicability of the CV2X-LOCA framework. Our field tests employed experimental vehicles equipped with the necessary instrumentation to capture and process localization data. The setup included:
